@@ -1,0 +1,297 @@
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 0 3px 3px #1a1a1a;
+}
+/* Seccion1 */
+.container1{
+    padding-top: 12rem;
+    margin-top: 60px;
+    position: relative;
+}
+.container1 img{
+    width: 550px;
+    float: left;
+}
+.container1 h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container1 p{
+    text-align: center;
+    margin-left: 5px;
+}
+.quienes{
+    scroll-margin-top: 70px;
+}
+
+
+/* Seccion2 */
+.container2{
+    margin-top: 230px;
+}
+.container2 h1{
+    text-align: center;
+}
+
+#sec1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.tecnologias{
+    scroll-margin-top: 300px;
+}
+
+/*seccion 3*/
+.conocenos{
+    scroll-margin-top: 300px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-nav{
+    background-color: #0E185F;
+}
+.collapse{
+    background-color: #0E185F;
+}
+.navbar-brand{
+    background-color: #0E185F;
+}
+.bg-{
+    background-color: #0E185F;
+}
+.margen1{
+    margin: 0px;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+#encabezado{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+#head1{
+    background-color: #0E185F;
+    background-size: cover;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#bd{
+    background-color: #5584AC;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+#lg1{
+    background-color: #5584AC;
+    text-align: center;
+    max-height: 150px;
+}
+
+/*Inicio CSS footter*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0E185F;
+}
+.pie-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.pie-pagina .grupo1 .box figure img{
+    width: 150px;
+}
+.pie-pagina .grupo1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+#ec1{
+    text-align: center;
+}
+.pie-pagina .grupo1 .box p{
+    color: whitesmoke;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pie-pagina .grupo1 .red-social a{
+   display: inline-block;
+   text-decoration: none;
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   color: white;
+   margin-right: 10px;
+   background-color: tomato;
+   text-align: center;
+   transition: all 300ms ease;
+}
+.pie-pagina .grupo1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo2{
+    background-color: azure;
+    padding: 15px 10px;
+    text-align: center;
+    color: black;
+}
+.pie-pagina .grupo2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+/*Fin CSS footter*/
+
+
+/*Cartas productos*/
+.card{
+    text-align: center;
+}
+#cartas{
+    align-items: center;
+}
+/*imagenes*/
+#imgcon{
+    width: 450px;
+}
+#cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fie{
+    width: 440px;
+}
+#of{
+    width: 500px;
+}
+#ub{
+    width: 450px;
+}
+
+
+
+
+
+
+#btn {
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+#btn .wrapper {
+    width: 197px;
+    margin: 0 auto;
+    text-align: center;
+    /*border: 1px solid blue; used to test width*/
+}
+
+#logo1{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+#colsli{
+    height: 50%;
+    width: 50%;
+    align-content: center;
+}
+
+#h1{
+    text-align: center;
+}
+
+/* */
+.contenedor{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.contenedor figure{
+    position:relative;
+    height: 250px;
+    cursor: pointer;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contenedor figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
